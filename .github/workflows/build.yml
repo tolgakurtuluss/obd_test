@@ -39,7 +39,8 @@ jobs:
           libtool \
           zlib1g-dev \
           libjpeg-dev \
-          libc6-dev
+          libc6-dev \
+          android-sdk
         pip install --upgrade pip
         pip install buildozer cython
  
